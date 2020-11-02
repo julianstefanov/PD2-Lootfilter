@@ -24,3 +24,4 @@ For more details on PD2, see https://www.ProjectDiablo2.com
 ### "Will you add this to your filter/I found a bug in your filter??"
 
 Feel free to get in touch if you can think of anything you think should be changed or is out of place in the filter. Suggestions will always be considered, if not always acted upon.
+ 
