@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Welcome to Adev's PD2 Filter
 
-You can use the [editor on GitHub](https://github.com/Arrested-Dev/PD2-Lootfilter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the filter from GitHub (https://raw.githubusercontent.com/Arrested-Dev/PD2-Lootfilter/main/default.filter) directly saved into your home project diablo 2 folder, as default.filter or as loot.filter.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever the PD2 launcher is updated with an auto-download link for loot filters, it should be possible to simply insert the link above there. 
 
-### Markdown
+### What is PD2?!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Project Diablo 2 is a new mod for Diablo 2 from the brains of SenpaiSomething, battle the hostile denizens of the outer plains and venture to battlegrounds new in an altogether more challenging arena, with modified items and settings.
 
 ```markdown
-Syntax highlighted code block
+This Loot filter will:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Remove inferior items from the ground at all levels
+Slowly filter out normal, exceptional and eventually even elite base items, until only the most relevant remain
+Ignore more magic and rare items at high levels
+Colour your identified charms so you can see at a glance which ones are good
+Increase visibility of custom items and high level uniques/sets (and set a notification on drop)
+Colourize runes, PD2 items
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details on PD2, see https://www.ProjectDiablo2.com
 
-### Jekyll Themes
+### "Will you add this to your filter/I found a bug in your filter??"
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Arrested-Dev/PD2-Lootfilter/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Feel free to get in touch if you can think of anything you think should be changed or is out of place in the filter. Suggestions will always be considered, if not always acted upon.
