@@ -266,10 +266,10 @@ ItemDisplay[cm1 UNI !ID]: %PURPLE%ooooo %GOLD%Annihilus %PURPLE%ooooo%MAP%
 ItemDisplay[cm2 UNI !ID]: %PURPLE%ooooo %GOLD%Hellfire Torch %PURPLE%ooooo%MAP%
 ItemDisplay[cm3 UNI !ID]: %PURPLE%ooo %GOLD%Gheed's Fortune %PURPLE%ooo%MAP%
 //Grand
-ItemDisplay[cm3 MAG !ID ILVL>77]: %BLUE%o %NAME% %BLUE% o
-ItemDisplay[cm3 MAG !ID ILVL<78 ILVL>49]: %BLUE%o %NAME% %BLUE% o
+ItemDisplay[cm3 MAG !ID ILVL>77]: %BLUE%o %NAME% %BLUE%o
+ItemDisplay[cm3 MAG !ID ILVL<78 ILVL>49]: %BLUE%o %NAME% %BLUE%o
 //Small
-ItemDisplay[cm1 MAG !ID ILVL>89]: %PURPLE%o %NAME% %PURPLE%% o%
+ItemDisplay[cm1 MAG !ID ILVL>89]: %BLUE%o %NAME% %BLUE%%o
 ItemDisplay[cm1 MAG !ID ILVL<90 ILVL>47]: %BLUE%o %NAME% %BLUE%o
 ItemDisplay[cm1 MAG !ID ILVL=47]: %BLUE%o %NAME% %BLUE%o
 //Catch-all
