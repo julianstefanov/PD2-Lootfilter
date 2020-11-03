@@ -486,12 +486,21 @@ ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID]: %YELLOW%%NA
 ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[RARE (EQ4 OR EQ5 OR 9lw OR 9tw OR 7tw OR 7lw OR clw OR btl) !ID !ETH]: %YELLOW%%NAME%
 ItemDisplay[RARE (EQ4 OR EQ5 OR 9lw OR 9tw OR 7tw OR 7lw OR clw OR btl) ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[CL1 RARE ILVL>39 !ID]: %YELLOW%%NAME%
-ItemDisplay[CL2 RARE !ID]: %YELLOW%%NAME%
+ItemDisplay[CL1 RARE !ETH ILVL>39 !ID]: %YELLOW%%NAME%
+ItemDisplay[CL2 RARE ETH !ID]: %YELLOW%%NAME%
+ItemDisplay[(am5 OR ama OR amf) !ETH RARE !ID]: %YELLOW%%NAME%
+ItemDisplay[(am5 OR ama OR amf) ETH RARE !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+//Magic
+ItemDisplay[SIN QLVL>40 MAG !ID]: %BLUE%%NAME%
+ItemDisplay[SIN ETH QLVL>40 MAG !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //SOCKETS
 //Armors
 ItemDisplay[(xtp OR uui) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) DEF>440]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[EQ2 ELT ETH AND (NMAG OR RW) (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[EQ2 ELT ETH AND (NMAG OR RW) (SOCK=0 OR SOCK>2) CLVL<90]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[!RW NMAG ETH !SUP ELT EQ2 !uul !uar (SOCK=3 OR SOCK=4) DEF>999]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[!RW NMAG ETH !SUP ELT EQ2 !uul !uar SOCK=0 DEF>666]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[!RW NMAG ETH !SUP (uar OR uul) SOCK=4 DEF>1199]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[!RW NMAG ETH !SUP (uar OR uul) SOCK=0 DEF>799]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Helmets
 //Precast Helms/Lore/Delirium
 ItemDisplay[CL1 ((!INF AND !ETH) AND NMAG OR RW) SK247>2 !SOCK=1]: %GRAY%[%WHITE%3gzy%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -510,7 +519,6 @@ ItemDisplay[pab (!INF AND ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK=4) RES>40]: %GRA
 ItemDisplay[pab (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) RES>40]: %GRAY%[%WHITE%res%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL3 (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) (RES>34 AND CLVL<81)]: %GRAY%[%WHITE%res%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[ush (!INF AND !ETH) AND (NMAG OR RW)  SOCK>1]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[uit (!INF AND ETH) AND (NMAG OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR RW) (DEF>140) (SOCK=0 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Spirit Swords
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
