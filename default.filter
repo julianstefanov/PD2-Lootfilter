@@ -350,6 +350,7 @@ ItemDisplay[uow UNI !ID !ETH]: %RED%oo Medusa's Gaze %RED%oo%MAP%
 ItemDisplay[mgl UNI !ID !ETH]: %RED%o Chance Guards o%MAP%
 ItemDisplay[tgl UNI !ID !ETH]: %RED%oo Magefist oo%MAP%
 ItemDisplay[hgl UNI !ID !ETH]: %RED%oo Frostburn oo%MAP%
+ItemDisplay[xvg UNI !ID !ETH]: %TAN%Gravepalm%MAP%
 ItemDisplay[uvg UNI !ID !ETH]: %RED%ooo %PURPLE%Dracul's Grasp %RED%ooo%MAP%
 ItemDisplay[uvg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Dracul's Grasp%MAP%
 ItemDisplay[umg UNI !ID !ETH]: %TAN%o Soul Drainer%MAP%
