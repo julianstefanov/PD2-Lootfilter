@@ -26,7 +26,7 @@ ItemDisplay[(mp1 OR mp2 OR mp3) CLVL>0]:
 ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
 ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
 ItemDisplay[(tsc OR isc) CLVL>40]:
-ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
+ItemDisplay[vps CLVL<41]: %GRAY%!%WHITE%stamina
 ItemDisplay[vps CLVL>40]:
 ItemDisplay[wms CLVL<61]: %YELLOW%!%WHITE%thaw
 ItemDisplay[wms CLVL>65]:
@@ -34,7 +34,7 @@ ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key CLVL<60]: %GRAY%Key%WHITE%
 ItemDisplay[key CLVL>61]:
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>15]:
 //Quivers & Bolts
 ItemDisplay[(aqv OR cqv) RARE]: %NAME%
 ItemDisplay[(aqv OR cqv) NMAG CLVL>12]:
@@ -121,24 +121,24 @@ ItemDisplay[r31s OR r31]: %PURPLE%oooooo%GREEN%ooooo%PURPLE%oooooo %GREEN%JAH %P
 ItemDisplay[r32s OR r32]: %PURPLE%oooooo%GREEN%ooooo%PURPLE%oooooo %GREEN%CHAM %PURPLE%oooooo%GREEN%ooooo%PURPLE%oooooo[32]%MAP%
 ItemDisplay[r33s OR r33]: %PURPLE%oooooo%GREEN%ooooo%PURPLE%oooooo %GREEN%ZOD %PURPLE%oooooo%GREEN%ooooo%PURPLE%oooooo[33]%MAP%
 ///GEMS
-ItemDisplay[GEM<4 CLVL>10]:
 ItemDisplay[GEM<4 CLVL<10]:%NAME%
 //Flawless
-ItemDisplay[gzvs OR gzv]: %ORANGE%Amethyst
-ItemDisplay[glws OR glw]: %ORANGE%Diamond
-ItemDisplay[glgs OR glg]: %ORANGE%Emerald
-ItemDisplay[glrs OR glr]: %ORANGE%Ruby
-ItemDisplay[glbs OR glb]: %ORANGE%Sapphire
-ItemDisplay[glys OR gly]: %ORANGE%Topaz
-ItemDisplay[skls OR skl]: %ORANGE%Skull
+ItemDisplay[GEM=4 GEMTYPE=1 OR gzv]: %ORANGE%Amethyst
+ItemDisplay[GEM=4 GEMTYPE=2 OR glw]: %ORANGE%Diamond
+ItemDisplay[GEM=4 GEMTYPE=3 OR glg]: %ORANGE%Emerald
+ItemDisplay[GEM=4 GEMTYPE=4 OR glr]: %ORANGE%Ruby
+ItemDisplay[GEM=4 GEMTYPE=5 OR glb]: %ORANGE%Sapphire
+ItemDisplay[GEM=4 GEMTYPE=6 OR gly]: %ORANGE%Topaz
+ItemDisplay[GEM=4 GEMTYPE=7 OR skl]: %ORANGE%Skull
 //Perfect
-ItemDisplay[gpvs OR gpv]: %ORANGE%Amethyst+
-ItemDisplay[gpws OR gpw]: %ORANGE%Diamond+
-ItemDisplay[gpgs OR gpg]: %ORANGE%Emerald+
-ItemDisplay[gprs OR gpr]: %ORANGE%Ruby+
-ItemDisplay[gpbs OR gpb]: %ORANGE%Sapphire+
-ItemDisplay[gpys OR gpy]: %ORANGE%Topaz+
-ItemDisplay[skzs OR skz]: %ORANGE%Skull+
+ItemDisplay[GEM=5 GEMTYPE=1 OR gpv]: %ORANGE%Amethyst+
+ItemDisplay[GEM=5 GEMTYPE=2 OR gpw]: %ORANGE%Diamond+
+ItemDisplay[GEM=5 GEMTYPE=3 OR gpg]: %ORANGE%Emerald+
+ItemDisplay[GEM=5 GEMTYPE=4 OR gpr]: %ORANGE%Ruby+
+ItemDisplay[GEM=5 GEMTYPE=5 OR gpb]: %ORANGE%Sapphire+
+ItemDisplay[GEM=5 GEMTYPE=6 OR gpy]: %ORANGE%Topaz+
+ItemDisplay[GEM=5 GEMTYPE=7 OR skz]: %ORANGE%Skull+
+ItemDisplay[GEM<4 CLVL>10]:
 //Circlets,Amulets,Rings,Jewels
 ItemDisplay[EQ7 RARE !ETH !ID]: %YELLOW%ooo %NAME% ooo%MAP%
 ItemDisplay[EQ7 RARE ETH !ID]: %YELLOW%o %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME% o%MAP%
@@ -487,12 +487,17 @@ ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE ETH !ID]: %GRAY%[%WHIT
 ItemDisplay[RARE (EQ4 OR EQ5 OR 9lw OR 9tw OR 7tw OR 7lw OR clw OR btl) !ID !ETH]: %YELLOW%%NAME%
 ItemDisplay[RARE (EQ4 OR EQ5 OR 9lw OR 9tw OR 7tw OR 7lw OR clw OR btl) ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[CL1 RARE !ETH ILVL>39 !ID]: %YELLOW%%NAME%
-ItemDisplay[CL2 RARE ETH !ID]: %YELLOW%%NAME%
+ItemDisplay[CL2 RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(am5 OR ama OR amf) !ETH RARE !ID]: %YELLOW%%NAME%
 ItemDisplay[(am5 OR ama OR amf) ETH RARE !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[CL6 RARE !ETH IVL>37 AND (ALVL>50 AND ALVL<60) !ID]: %YELLOW%%NAME%%RED%o
+ItemDisplay[CL6 RARE !ETH IVL>60 !ID]: %YELLOW%%NAME%
+ItemDisplay[CL6 RARE !ETH ILVL>37 AND (ALVL>50 AND ALVL<60) !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%%RED%o
 //Magic
 ItemDisplay[SIN QLVL>40 MAG !ID]: %BLUE%%NAME%
 ItemDisplay[SIN ETH QLVL>40 MAG !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[CL2 MAG !ETH IVL>60 !ID]: %BLUE%%NAME%
+ItemDisplay[CL6 MAG !ETH IVL>60 !ID]: %BLUE%%NAME%
 //SOCKETS
 //Armors
 ItemDisplay[(xtp OR uui) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) DEF>440]: %GRAY%%NAME% %TAN%[%SOCKETS%]
@@ -535,7 +540,7 @@ ItemDisplay[crs (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 SK117>2 (NMAG OR RW) SOCK=5]: %GRAY%[%PURPLE%holy%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK50>0) SOCK=5]: %GRAY%[%WHITE%cta%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Memory
-ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) (NMAG OR RW) (SK58>2 AND SK50>0) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) !INF AND (NMAG OR RW) (SK58>2 AND SK50>0) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK50>0) SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK50>0) SOCK=4]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Faith
