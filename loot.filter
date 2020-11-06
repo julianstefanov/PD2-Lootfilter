@@ -1,4 +1,4 @@
-﻿//Gadn filter - version 18.0
+﻿Adev's scuffed leveling filter for pd2, with apologies to Gadn & Senpai.
 ////BASICS
 //Gold
 ItemDisplay[GOLD<1000 CLVL<65)]:
