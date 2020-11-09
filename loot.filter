@@ -31,7 +31,7 @@ ItemDisplay[(tsc OR isc) CLVL>40]:
 ItemDisplay[vps CLVL<41]: %GRAY%!%WHITE%stamina
 ItemDisplay[vps CLVL>40]:
 ItemDisplay[wms CLVL<61]: %YELLOW%!%WHITE%thaw
-ItemDisplay[wms CLVL>65]:
+ItemDisplay[wms CLVL>61]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key CLVL<60]: %GRAY%Key
 ItemDisplay[key CLVL>61]:
@@ -842,7 +842,7 @@ ItemDisplay[WP9 !CL7 ELT NMAG SOCK>3]: %GRAY%%NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[WP9 !CL7 ELT NMAG ED=15 (SOCK=2 OR SOCK=3)]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP9 NORM NMAG SOCK=4]: %GRAY%%NAME% %WHITE%%TAN%[%SOCKETS%]
 ItemDisplay[WP9 (8sb OR 8hb OR 8lb) NMAG SOCK=4]: %GRAY%%NAME% %WHITE%%TAN%[%SOCKETS%]
-ItemDisplay[hbw NMAG SOCK=4]: %GRAY%%NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[hbw NMAG SOCK=4]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP9 !CL7 NMAG ILVL>55]:
 ////WP10 CROSSBOWS
 ItemDisplay[WP10 NMAG ED>9 ED<16 SOCK=4]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
