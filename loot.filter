@@ -567,8 +567,8 @@ ItemDisplay[jew UNI !ID]: %RED%>>%WHITE%>>%PURPLE%%NAME%%WHITE%<<%RED%<<%MAP%
 ///UNIQUE&SET CATCHALL
 ItemDisplay[UNI ETH SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[SET ETH SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[UNI ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%
-ItemDisplay[SET ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%
+ItemDisplay[UNI ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME%
+ItemDisplay[SET ETH]: %GRAY%[%WHITE%eth%GRAY%] %GREEN%%NAME%
 ItemDisplay[UNI SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[SET SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[UNI]: %NAME%
