@@ -386,8 +386,8 @@ ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%
 //Jewels
 ItemDisplay[jew MAG !ID]: %TAN%>>%WHITE%>>%BLUE%%NAME%%WHITE%<<%TAN%<<
 ///Magic 
-ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) MAG !ETH !ID QLVL>40]: %YELLOW%%NAME%
-ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) MAG ETH !ID QLVL>40]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) MAG !ETH !ID QLVL>40]: %BLUE%%NAME%
+ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) MAG ETH !ID QLVL>40]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ////UNIQUE ITEMS+SET ITEMS
 ItemDisplay[xh9 UNI !ID !ETH]: %RED%ooo %PURPLE%Vampire Gaze %RED%ooo%MAP%
 ItemDisplay[xh9 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Vampire Gaze %RED%ooo%MAP%
