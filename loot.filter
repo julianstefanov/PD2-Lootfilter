@@ -82,6 +82,11 @@ ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP%
 ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP%
 ItemDisplay[lbox]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP%
+ItemDisplay[dcma]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[dcbl]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[dcho]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[dcso]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[imrn]: %RED%o %NAME%%RED% o%MAP%
 //Maps
 ItemDisplay[t11 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t12 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
@@ -219,12 +224,19 @@ ItemDisplay[(7ja OR 9ja OR jav) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%
 ItemDisplay[(7tk OR 7bk OR 9tk OR 9bk OR tkf OR bkf) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(7tk OR 7bk OR 9tk OR 9bk OR tkf OR bkf) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 //Normal rares
-ItemDisplay[(ARMOR OR WEAPON) NORM RARE ILVL>0 ILVL<44 !ID]: %NAME%
+ItemDisplay[(ARMOR OR WEAPON) !ETH NORM RARE ILVL>0 ILVL<44 !ID]: %NAME%
+ItemDisplay[(ARMOR OR WEAPON) ETH NORM RARE ILVL>0 ILVL<44 !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 //UNID'd rares
 ItemDisplay[RARE !ID CLVL>79]:
+ItemDisplay[RARE !ID CLVL<80]: %YELLOW%%NAME%
+ItemDisplay[RARE ETH !ID CLVL<80]: [%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(ARMOR OR WEAPON) !ETH NORM RARE !ID CLVL<80]: %NAME%
+ItemDisplay[(ARMOR OR WEAPON) ETH NORM RARE !ID CLVL<80]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ///ID RARES
 ItemDisplay[RARE ID]: %YELLOW%%NAME%
 ItemDisplay[RARE ETH ID]: [%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(ARMOR OR WEAPON) !ETH NORM RARE ID]: %NAME%
+ItemDisplay[(ARMOR OR WEAPON) ETH NORM RARE ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ////CHARMS
 //Good Charms
 ItemDisplay[cm3 (MAXDMG>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm 
@@ -662,10 +674,10 @@ ItemDisplay[uul NMAG !ETH]:
 ItemDisplay[utp NMAG ETH !SOCK=1 DEF>620 CLVL<90]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[utp NMAG !ETH !SOCK=1 DEF>444 CLVL<90]: %NAME%TAN%[%SOCKETS%]
 //Light Plate/Mage Plate
-ItemDisplay[(xtp OR xea OR xui) NMAG !INF !ETH !SOCK=1]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(xtp OR xea) xui NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]
-ItemDisplay[(ltp OR xea) NMAG !INF !ETH !SOCK=1]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(ltp OR xea) NMAG ETH !SOCK=1 CLVL<71]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]
+ItemDisplay[(xtp OR xea OR xui) NMAG !RARE !INF !ETH !SOCK=1]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(xtp OR xea) xui NMAG !RARE ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]
+ItemDisplay[(ltp OR xea) NMAG !RARE !INF !ETH !SOCK=1]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(ltp OR xea) NMAG !RARE ETH !SOCK=1 CLVL<71]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]
 ///EQ3 SHIELDS
 //Monarch
 ItemDisplay[uit NMAG !ETH ED=15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]%MAP%
@@ -829,10 +841,10 @@ ItemDisplay[7vo NMAG !ETH SOCK=4]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7pa OR 7h7) NMAG ETH (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7pa OR 7h7) NMAG !ETH SOCK>3]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Norm+Exceptional bases (-Bardiche/Lochaber Axe)
-ItemDisplay[WP8 EXC !9b7 ETH NMAG SOCK=4 CLVL<65]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP8 EXC !9b7 !ETH NMAG SOCK=4 CLVL<65]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP8 NORM !bar ETH NMAG SOCK=4 CLVL<65]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP8 NORM !bar !ETH NMAG SOCK=4 CLVL<65]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP8 EXC !9b7 ETH NMAG SOCK=4 CLVL<75]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP8 EXC !9b7 !ETH NMAG SOCK=4 CLVL<75]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP8 NORM !bar ETH NMAG SOCK=4 CLVL<75]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP8 NORM !bar !ETH NMAG SOCK=4 CLVL<75]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ///WP9 BOWS(NON AMA)
 ItemDisplay[WP9 !CL7 ELT NMAG ED=15 SOCK>3]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP9 !CL7 ELT NMAG ED>0 ED<15 SOCK>3]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -1089,6 +1101,6 @@ ItemDisplay[MAG ILVL<7 !ID]: %NAME%
 ItemDisplay[MAG ILVL>6 !ID]:
 ItemDisplay[MAG ID]: %NAME%
 ItemDisplay[NMAG ILVL>6]:
-ItemDisplay[ETH SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[ETH SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[ETH !UNI !RARE NMAG SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[ETH !UNI !RARE NMAG SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[SOCK>0]: %GRAY%%NAME% %TAN%[%SOCKETS%]
