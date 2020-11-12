@@ -403,11 +403,14 @@ ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) MAG ETH !ID QLVL>40]: %GRAY
 ////UNIQUE ITEMS+SET ITEMS
 ItemDisplay[xh9 UNI !ID !ETH]: %RED%ooo %PURPLE%Vampire Gaze %RED%ooo%MAP%
 ItemDisplay[xh9 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Vampire Gaze %RED%ooo%MAP%
+ItemDisplay[xhl UNI !ID !ETH]: %RED%Darksight Helm%MAP%
+ItemDisplay[xhl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%]%RED%Darksight Helm%MAP%
 ItemDisplay[uap UNI !ID !ETH]: %RED%ooo %PURPLE%Shako %RED%ooo%MAP%
+ItemDisplay[uap UNI !ID ETH]: %RED%ooo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shako %RED%ooo%MAP%
 ItemDisplay[ulm UNI !ID !ETH]: %RED%ooo %PURPLE%Steel Shade %RED%ooo%MAP%
 ItemDisplay[ulm UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Steel Shade o%MAP%
 ItemDisplay[uhm UNI !ID !ETH]: %RED%ooo %PURPLE%Veil of Steel or Nightwing's Veil %RED%ooo%MAP%
-ItemDisplay[uhm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%ooo %PURPLE%Veil of Steel or %GRAY%[%WHITE%eth%GRAY%] %TAN%Nightwing's Veil %RED%ooo%MAP%
+ItemDisplay[uhm UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Veil of Steel or %GRAY%[%WHITE%eth%GRAY%] %TAN%Nightwing's Veil %RED%ooo%MAP%
 ItemDisplay[usk UNI !ID !ETH]: %RED%ooo %PURPLE%Andariel's Visage %RED%ooo%MAP%
 ItemDisplay[usk UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Andariel's Visage %RED%ooo%MAP%
 ItemDisplay[urn UNI !ID !ETH]: %RED%oooo %PURPLE%Crown of Ages %RED%oooo%MAP%
@@ -417,6 +420,9 @@ ItemDisplay[uh9 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Giant Skull%MAP%
 ItemDisplay[ci3 UNI !ID !ETH]: %RED%ooo %PURPLE% Griffon's Eye %RED%ooo%MAP%
 ItemDisplay[ci3 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%o Griffon's Eye o%MAP%
 ItemDisplay[ci2 UNI !ID !ETH]: %RED%oo %PURPLE%Kira's Guardian %RED%oo%MAP%
+ItemDisplay[ci2 UNI !ID ETH]: %RED%oo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Kira's Guardian %RED%oo%MAP%
+ItemDisplay[xui UNI !ID !ETH]: %RED%The Spirit Shroud
+ItemDisplay[xui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%The Spirit Shroud
 ItemDisplay[xea UNI !ID !ETH]: %RED%ooo %PURPLE%Skin of the Vipermagi %RED%ooo%MAP%
 ItemDisplay[xea UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Skin of the Vipermagi%MAP%
 ItemDisplay[xrs UNI !ID !ETH]: %RED%o Duriel's Shell o%MAP%
@@ -432,7 +438,7 @@ ItemDisplay[xth UNI !ID !ETH]: %RED%o Atma's Wail o%MAP%
 ItemDisplay[uui UNI !ID !ETH]: %RED%ooo %PURPLE%Ormus' Robes %RED%ooo%MAP%
 ItemDisplay[uui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ormus' Robes%MAP%
 ItemDisplay[utu UNI !ID !ETH]: %RED%o The Gladiator's Bane o%MAP%
-ItemDisplay[utu UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%o The Gladiator's Bane o%MAP%
+ItemDisplay[utu UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] The Gladiator's Bane o%MAP%
 ItemDisplay[upl UNI !ID !ETH]: %RED%ooo %PURPLE%Arkaine's Valor %RED%ooo%MAP%
 ItemDisplay[upl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Arkaine's Valor%MAP%
 ItemDisplay[uld UNI !ID !ETH]: %RED%o Leviathan o%MAP%
@@ -466,7 +472,7 @@ ItemDisplay[xtb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%War Traveler%MAP%
 ItemDisplay[xhb UNI !ID !ETH]: %RED%ooo %PURPLE%Gore Rider %RED%ooo%MAP%
 ItemDisplay[xhb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Gore Rider%MAP%
 ItemDisplay[uvb UNI !ID !ETH]: %RED%oo Sandstorm Trek oo%MAP%
-ItemDisplay[uvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%oo %PURPLE%Sandstorm Trek %REDoo%MAP%
+ItemDisplay[uvb UNI !ID ETH]:  %RED%oo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Sandstorm Trek %REDoo%MAP%
 ItemDisplay[umb UNI !ID !ETH]: %RED%oo Marrowwalk oo%MAP%
 ItemDisplay[umb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %TAN%Marrowwalk%MAP%
 ItemDisplay[uhb UNI !ID !ETH]: %RED%o Shadow Dancer o%MAP%
