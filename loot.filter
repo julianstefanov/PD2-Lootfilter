@@ -7,7 +7,7 @@ ItemDisplay[GOLD<5000 CLVL>64]:
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
 ItemDisplay[hp5]: %RED%!%WHITE%HP%RED%!%WHITE%
-ItemDisplay[mp4]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
+ItemDisplay[mp4 CLVL<79]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
 ItemDisplay[mp5]: %BLUE%!%WHITE%Mana%BLUE%!%WHITE%
 ItemDisplay[hp1 CLVL<16]: %RED%!%WHITE%Minor Heal
 ItemDisplay[hp2 CLVL<19]: %RED%!%WHITE%Light Heal
@@ -17,7 +17,7 @@ ItemDisplay[mp1 CLVL<16]: %BLUE%!%WHITE%Minor Mana
 ItemDisplay[mp2 CLVL<21]: %BLUE%!%WHITE%Light Mana
 ItemDisplay[mp3 CLVL<27]: %BLUE%!%WHITE%Mana
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL>0]:
-ItemDisplay[(mp1 OR mp2 OR mp3) CLVL>0]:
+ItemDisplay[(mp1 OR mp2 OR mp3 mp4) CLVL>0]:
 //Essences (Respec Token)
 ItemDisplay[tes]: %GOLD%Suffering [Andariel]%MAP%
 ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]%MAP%
@@ -437,6 +437,8 @@ ItemDisplay[xlt UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Guardian Ange
 ItemDisplay[xth UNI !ID !ETH]: %RED%o Atma's Wail o%MAP%
 ItemDisplay[uui UNI !ID !ETH]: %RED%ooo %PURPLE%Ormus' Robes %RED%ooo%MAP%
 ItemDisplay[uui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ormus' Robes%MAP%
+ItemDisplay[xld UNI !ID !ETH]: %RED%Toothrow%MAP%
+ItemDisplay[xld UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%]%RED%Toothrow%MAP%
 ItemDisplay[utu UNI !ID !ETH]: %RED%o The Gladiator's Bane o%MAP%
 ItemDisplay[utu UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] The Gladiator's Bane o%MAP%
 ItemDisplay[upl UNI !ID !ETH]: %RED%ooo %PURPLE%Arkaine's Valor %RED%ooo%MAP%
@@ -493,7 +495,7 @@ ItemDisplay[7wa UNI !ID !ETH]: %RED%ooo %PURPLE% Death Cleaver %RED%ooo%MAP%
 ItemDisplay[7wa UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Death Cleaver%MAP%
 ItemDisplay[7bt UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %TAN%Hellslayer%MAP%
 ItemDisplay[7gi UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Executioner's Justice%MAP%
-ItemDisplay[7sp UNI !ID !ETH]: %RED%Demon Limb o%MAP%
+ItemDisplay[7sp UNI !ID !ETH]: %RED%o Demon Limb o%MAP%
 ItemDisplay[7fl UNI !ID !ETH]: %RED%oo Horizon's Tornado or Stormlash oo%MAP%
 ItemDisplay[7fl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Horizon's Tornado or %GRAY%[%WHITE%eth%GRAY%] %RED%Stormlash%MAP%
 ItemDisplay[7wh UNI !ID !ETH]: %RED%oo Stone Crusher or Schaefer's Hammer oo%MAP%
@@ -1031,7 +1033,7 @@ ItemDisplay[CL6 SK47=2 ILVL<67]: %GRAY%[%WHITE%2fb%GRAY%] %NAME% %TAN%[%SOCKETS%
 ///CL7 AMAZON BOWS
 ItemDisplay[(amb OR amc) NMAG ED=15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%15%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(amb OR amc) NMAG ED=14 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%14%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(amb OR amc) NMAG ED>0 ED<15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %%GRAY%[%WHITE%%ed%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(amb OR amc) NMAG ED>0 ED<15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%ed%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(am1 OR amb OR am6) NMAG TABSK0>2 SOCK=3 CLVL>84]: %GRAY%[%WHITE%melo%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[am6 NMAG ED=15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%15%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
