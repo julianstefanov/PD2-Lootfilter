@@ -343,6 +343,8 @@ ItemDisplay[xlt UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Guardian Ange
 ItemDisplay[xth UNI !ID !ETH]: %RED%o Atma's Wail o%MAP%
 ItemDisplay[uui UNI !ID !ETH]: %RED%ooo %PURPLE%Ormus' Robes %RED%ooo%MAP%
 ItemDisplay[uui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ormus' Robes%MAP%
+ItemDisplay[xld UNI !ID !ETH]: %RED%Toothrow%MAP%
+ItemDisplay[xld UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%]%RED%Toothrow%MAP%
 ItemDisplay[utu UNI !ID !ETH]: %RED%o The Gladiator's Bane o%MAP%
 ItemDisplay[utu UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] The Gladiator's Bane o%MAP%
 ItemDisplay[upl UNI !ID !ETH]: %RED%ooo %PURPLE%Arkaine's Valor %RED%ooo%MAP%
@@ -638,6 +640,32 @@ ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GR
 ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7p7 NMAG !ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7p7 NMAG !ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
+///WP8 POLEARMS
+//Thresher+Giant Thresher
+ItemDisplay[7wc NMAG ETH (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7wc NMAG !ETH (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7s8 NMAG ETH (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7s8 NMAG !ETH (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %WHITE%%TAN%[%SOCKETS%]
+//Colossus Voulge
+ItemDisplay[7vo NMAG ETH (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7vo NMAG !ETH SOCK=4]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+//Cryptic Axe+Great Poleaxe
+ItemDisplay[(7pa OR 7h7) NMAG ETH (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7pa OR 7h7) NMAG !ETH SOCK>3]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+//Norm+Exceptional bases (-Bardiche/Lochaber Axe)
+ItemDisplay[WP8 EXC !9b7 ETH NMAG SOCK=4 CLVL<75]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP8 EXC !9b7 !ETH NMAG SOCK=4 CLVL<75]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP8 NORM !bar ETH NMAG SOCK=4 CLVL<75]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP8 NORM !bar !ETH NMAG SOCK=4 CLVL<75]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+///CL7 AMAZON BOWS
+ItemDisplay[(amb OR amc) NMAG ED=15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%15%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[(amb OR amc) NMAG ED=14 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%14%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(amb OR amc) NMAG ED>0 ED<15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%ed%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(am1 OR amb OR am6) NMAG TABSK0>2 SOCK=3 CLVL>84]: %GRAY%[%WHITE%melo%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[am6 NMAG ED=15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%15%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[am6 NMAG ED>0 ED<15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %GRAY%[%WHITE%%ed%GRAY%] %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=0]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Staves
 //+3 ES+Shiver
 ItemDisplay[WP11 NMAG SOCK=4 !ETH (SK58>2 AND SK50>0)]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
@@ -684,7 +712,7 @@ ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK50>0) SOCK=0 (!INF AN
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK50>0) SOCK=4]: %GRAY%[%WHITE%mem%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP11 NMAG SOCK=4 SK58>2]: %GRAY%[%WHITE%+3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP11 NMAG SOCK=4 SK58=2 CLVL<86]: %GRAY%[%WHITE%+2es%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Melody
+//Harmony
 ItemDisplay[WP9 !CL7 (NORM AND NMAG) SOCK=4]: %GRAY%%NAME% %WHITE%%TAN%[%SOCKETS%]
 ItemDisplay[hbw NMAG SOCK=4]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Faith
