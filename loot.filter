@@ -697,6 +697,8 @@ ItemDisplay[urg NMAG ED=15 !SOCK=1]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %WHITE%%TAN
 ItemDisplay[urg NMAG ED>0 ED<15 !SOCK=1]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]
 ////WEAPON BASES
 ///WP1 AXES
+//Double Axe CTA
+ItemDisplay[2ax !ETH (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
 //Small Crescent
 ItemDisplay[7ax NMAG ETH SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]
 //ItemDisplay[7ax NMAG !ETH SOCK=4]: %GRAY%%NAME% %WHITE%%TAN%[%SOCKETS%]
@@ -751,7 +753,7 @@ ItemDisplay[(crs OR bsd OR lsd) !INF NMAG ETH SOCK=4 CLVL<61]: %GRAY%[%WHITE%%et
 //Crystal Sword
 ItemDisplay[crs NMAG !ETH SOCK=5]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[crs NMAG !ETH (SOCK=3 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[crs NMAG ETH (SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[crs NMAG ETH (SOCK=0 OR SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Broad Sword
 ItemDisplay[bsd NMAG !ETH !INF SOCK=4 CLVL<51]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Long Sword
@@ -761,7 +763,7 @@ ItemDisplay[lsd NMAG !ETH !INF (SOCK=0 OR SOCK=4) CLVL<51]: %GRAY%%NAME% %TAN%[%
 //Dimensional Blade
 ItemDisplay[9cr NMAG !ETH ED=15 !SOCK=1]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[9cr NMAG !ETH (SOCK=3 OR SOCK=5)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[9cr NMAG ETH (SOCK=3 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[9cr NMAG ETH (SOCK=0 OR SOCK=3 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///Phase Blade
 ItemDisplay[7cr NMAG ED=15 !SOCK=1]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7cr NMAG ED=14 !SOCK=1 !SOCK=2]: %GRAY%[%WHITE%%14%GRAY%] %NAME% %TAN%[%SOCKETS%]
