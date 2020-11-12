@@ -96,7 +96,7 @@ ItemDisplay[t15 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t16 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%
 ItemDisplay[t17 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
 ItemDisplay[t18 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 (NMAG OR !RARE)]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
+ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 (NMAG OR !RARE)]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo
 //All norm 1sock
 ItemDisplay[NMAG SOCK=1]:
 ////RUNES
