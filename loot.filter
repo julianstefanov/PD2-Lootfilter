@@ -521,6 +521,8 @@ ItemDisplay[7s8 UNI !ID !ETH]: %RED%o Reaper's Toll o%MAP%
 ItemDisplay[7s8 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Reaper's Toll %RED%o%MAP%
 ItemDisplay[7pa UNI !ID !ETH]: %RED%o Tomb Reaver o%MAP%
 ItemDisplay[7pa UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Tomb Reaver o%MAP%
+ItemDisplay[8s8 UNI !ID]: %RED%Witchwild String%MAP%
+ItemDisplay[6l7 UNI !ID]: %RED%o Eaglehorn o%MAP%
 ItemDisplay[8lw UNI !ID]: %RED%ooo Goldstrike Arch ooo%MAP%
 ItemDisplay[6sw UNI !ID]: %RED%o Widowmaker o%MAP%
 ItemDisplay[6lw UNI !ID]: %RED%ooo %PURPLE%Windforce %RED%ooo%MAP%
