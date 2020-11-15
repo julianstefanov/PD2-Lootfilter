@@ -88,14 +88,14 @@ ItemDisplay[dcho]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[dcso]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[imrn]: %RED%o %NAME%%RED% o%MAP%
 //Maps
-ItemDisplay[t11 !ID]: %RED%ooo %NAME% %RED%oooMAP%
-ItemDisplay[t12 !ID]: %RED%ooo %NAME% %RED%oooMAP%
-ItemDisplay[t13 !ID]: %RED%ooo %NAME% %RED%oooMAP%
-ItemDisplay[t14 !ID]: %RED%ooo %NAME% %RED%oooMAP%
-ItemDisplay[t15 !ID]: %RED%ooo %NAME% %RED%oooMAP%
+ItemDisplay[t11 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
+ItemDisplay[t12 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
+ItemDisplay[t13 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
+ItemDisplay[t14 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
+ItemDisplay[t15 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
 ItemDisplay[t16 !ID]: %RED%ooo %NAME% %RED%ooo
-ItemDisplay[t17 !ID]: %RED%ooo %NAME% %RED%oooMAP%
-ItemDisplay[t18 !ID]: %RED%ooo %NAME% %RED%oooMAP%
+ItemDisplay[t17 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
+ItemDisplay[t18 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
 ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 (NMAG OR !RARE)]: %RED%ooo %WHITE%%NAME% %RED%ooo
 //All norm 1sock
 ItemDisplay[NMAG SOCK=1]:
