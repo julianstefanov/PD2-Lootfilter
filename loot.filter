@@ -7,7 +7,8 @@ ItemDisplay[GOLD<5000 CLVL>64]:
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
 ItemDisplay[hp5]: %RED%!%WHITE%HP%RED%!%WHITE%
-ItemDisplay[mp4 CLVL<79]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
+ItemDisplay[mp4 CLVL<78]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
+ItemDisplay[mp4 CLVL>79]:
 ItemDisplay[mp5]: %BLUE%!%WHITE%Mana%BLUE%!%WHITE%
 ItemDisplay[hp1 CLVL<16]: %RED%!%WHITE%Minor Heal
 ItemDisplay[hp2 CLVL<19]: %RED%!%WHITE%Light Heal
@@ -93,10 +94,11 @@ ItemDisplay[t12 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
 ItemDisplay[t13 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
 ItemDisplay[t14 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
 ItemDisplay[t15 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
-ItemDisplay[t16 !ID]: %RED%ooo %NAME% %RED%ooo
+ItemDisplay[t16 !ID]: %RED%oo %NAME% %RED%oo
 ItemDisplay[t17 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
 ItemDisplay[t18 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
-ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 (NMAG OR !RARE)]: %RED%ooo %WHITE%%NAME% %RED%ooo
+ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 MAG ID]: %RED%oo %BLUE%%NAME% %RED%oo
+ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 (NMAG OR !RARE) ID]: %RED%oo %WHITE%%NAME% %RED%oo
 //All norm 1sock
 ItemDisplay[NMAG SOCK=1]:
 ////RUNES
