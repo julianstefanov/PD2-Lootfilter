@@ -88,15 +88,15 @@ ItemDisplay[dcho]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[dcso]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[imrn]: %RED%o %NAME%%RED% o%MAP%
 //Maps
-ItemDisplay[t11 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t12 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t13 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t14 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t15 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t16 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo
-ItemDisplay[t17 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t18 !ID]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo%MAP%
-ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 (NMAG OR !RARE)]: %PURPLE%ooo %RED%%NAME% %PURPLE%ooo
+ItemDisplay[t11 !ID]: %RED%ooo %NAME% %RED%oooMAP%
+ItemDisplay[t12 !ID]: %RED%ooo %NAME% %RED%oooMAP%
+ItemDisplay[t13 !ID]: %RED%ooo %NAME% %RED%oooMAP%
+ItemDisplay[t14 !ID]: %RED%ooo %NAME% %RED%oooMAP%
+ItemDisplay[t15 !ID]: %RED%ooo %NAME% %RED%oooMAP%
+ItemDisplay[t16 !ID]: %RED%ooo %NAME% %RED%ooo
+ItemDisplay[t17 !ID]: %RED%ooo %NAME% %RED%oooMAP%
+ItemDisplay[t18 !ID]: %RED%ooo %NAME% %RED%oooMAP%
+ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 (NMAG OR !RARE)]: %RED%ooo %NAME% %RED%ooo
 //All norm 1sock
 ItemDisplay[NMAG SOCK=1]:
 ////RUNES
@@ -821,9 +821,9 @@ ItemDisplay[7gd NMAG ETH ED>0 ED<15 !SOCK=1 !SOCK=2]: %GRAY%[%WHITE%eth%GRAY%] %
 ItemDisplay[7gd NMAG ETH !SOCK=1 !SOCK=2]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///WP4 DAGGERS
 ///WP5 THROWING
-ItemDisplay[WP5 ELT ETH]%GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
+ItemDisplay[WP5 ELT ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
 ///WP6 JAVELINS(NON AMA)
-ItemDisplay[(7gl OR 7ts) ETH]%GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
+ItemDisplay[(7gl OR 7ts) ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
 ///WP7 SPEARS(NON AMA)
 //Mancatcher
 ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
