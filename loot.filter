@@ -18,7 +18,7 @@ ItemDisplay[mp1 CLVL<16]: %BLUE%!%WHITE%Minor Mana
 ItemDisplay[mp2 CLVL<21]: %BLUE%!%WHITE%Light Mana
 ItemDisplay[mp3 CLVL<27]: %BLUE%!%WHITE%Mana
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL>0]:
-ItemDisplay[(mp1 OR mp2 OR mp3 mp4) CLVL>0]:
+ItemDisplay[(mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 //Essences (Respec Token)
 ItemDisplay[tes]: %GOLD%Suffering [Andariel]%MAP%
 ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]%MAP%
