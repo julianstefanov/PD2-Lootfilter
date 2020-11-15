@@ -762,7 +762,7 @@ ItemDisplay[7gm NMAG !ETH ED>0 ED<15 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%%ed%GRAY
 ItemDisplay[7gm NMAG ETH (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///WP3 SWORDS
 //Larzuk Spirit
-ItemDisplay[(crs OR bsd OR lsd) !INF NMAG (ILVL>25) SOCK=0 CLVL<61]: %GRAY% %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(crs OR bsd OR lsd) !INF !ETH NMAG (ILVL>25) SOCK=0 CLVL<61]: %GRAY% %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) !INF NMAG !ETH SOCK=4 CLVL<61]: %GRAY% %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) !INF NMAG ETH SOCK=4 CLVL<61]: %GRAY%[%WHITE%%eth%GRAY%]%GRAY% %NAME% %TAN%[%SOCKETS%]
 //Crystal Sword
