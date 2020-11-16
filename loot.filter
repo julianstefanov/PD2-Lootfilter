@@ -611,10 +611,10 @@ ItemDisplay[SET !ID]: %NAME%
 ItemDisplay[RW]: %NAME%
 ////SHOPPING
 //+3 Java/Bow skills Gloves
-ItemDisplay[EQ4 MAG !ETH TABSK2>2 IAS=20]: %NAME% %PURPLE%+3 Javelin Skills 20IAS%NOTIFY%
+ItemDisplay[EQ4 MAG !ETH TABSK2>2 IAS=20]: %NAME% %PURPLE%+3 Javelin Skills 20IAS
 ItemDisplay[EQ4 MAG !ETH TABSK2>2 IAS=10]: %NAME% %RED%+3 Javelin Skills 10IAS
 ItemDisplay[EQ4 MAG !ETH TABSK2>2]: %NAME% %ORANGE%+3 Javelin Skills
-ItemDisplay[EQ4 MAG !ETH TABSK0>2 IAS=20]: %NAME% %PURPLE%+3 Bow Skills 20IAS%NOTIFY%
+ItemDisplay[EQ4 MAG !ETH TABSK0>2 IAS=20]: %NAME% %PURPLE%+3 Bow Skills 20IAS
 ItemDisplay[EQ4 MAG !ETH TABSK0>2 IAS=10]: %NAME% %RED%+3 Bow Skills 10IAS
 ItemDisplay[EQ4 MAG !ETH TABSK0>2]: %NAME% %ORANGE%+3 Bow Skills
 //+2 Java/Bow skills Gloves
