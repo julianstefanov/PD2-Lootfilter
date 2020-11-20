@@ -834,7 +834,7 @@ ItemDisplay[7gd NMAG ETH ED>0 ED<15 !SOCK=1 !SOCK=2]: %GRAY%[%WHITE%eth%GRAY%] %
 ItemDisplay[7gd NMAG ETH !SOCK=1 !SOCK=2]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///WP4 DAGGERS
 ///WP5 THROWING
-ItemDisplay[WP5 ELT ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
+ItemDisplay[(7tk OR 7ta OR 7bk OR 7b8) ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
 ///WP6 JAVELINS(NON AMA)
 ItemDisplay[(7gl OR 7ts) ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
 ///WP7 SPEARS(NON AMA)
