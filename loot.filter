@@ -178,41 +178,22 @@ ItemDisplay[(WP12 OR EQ4 OR EQ5 OR EQ6) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(WP12 OR EQ4 OR EQ5 OR EQ6) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 //Helms
 ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID]:
+ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 //Axes
 ItemDisplay[(7wa OR 9wa OR wax) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(7wa OR 9wa OR wax) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(7wa OR 9wa OR wax) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(7wa OR 9wa OR wax) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[(7wa OR 9wa OR wax) RARE !ETH !ID]:
-ItemDisplay[(7wa OR 9wa OR wax) RARE ETH !ID]:
 //Maces
 ItemDisplay[(7fl OR 7wh OR 9fl OR 9wh OR fla OR whm) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[(7fl OR 7wh OR 9fl OR 9wh OR fla OR whm) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(7fl OR 7wh OR 9fl OR 9wh OR fla OR whm) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(7fl OR 7wh OR 9fl OR 9wh OR fla OR whm) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(7fl OR 7wh OR 9fl OR 9wh OR fla OR whm) RARE !ETH !ID]:
-ItemDisplay[(7fl OR 7wh OR 9fl OR 9wh OR fla OR whm) RARE ETH !ID]:
 //Sword
 ItemDisplay[(7cr OR 9cr OR crs OR 7ls) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[(7cr OR 9cr OR crs OR 7ls) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(7cr OR 9cr OR crs OR 7ls) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(7cr OR 9cr OR crs OR 7ls) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(7cr OR 9cr OR crs OR 7ls) RARE !ETH !ID]:
-ItemDisplay[(7cr OR 9cr OR crs OR 7ls) RARE ETH !ID]:
 //Scepters
 ItemDisplay[(7ws OR 9ws OR wsp) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[(7ws OR 9ws OR wsp) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[(7ws OR 9ws OR wsp) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[(7ws OR 9ws OR wsp) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 //Spear
 ItemDisplay[(7p7 OR 9p9 OR pik) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[(7p7 OR 9p9 OR pik) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(7p7 OR 9p9 OR pik) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(7p7 OR 9p9 OR pik) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(7p7 OR 9p9 OR pik) RARE !ETH !ID]:
-ItemDisplay[(7p7 OR 9p9 OR pik) RARE ETH !ID]:
 //Bows
 ItemDisplay[(6hb OR 6l7 OR 6lw OR 8hb OR 8l8 OR 8lw OR hbw OR lbb OR lwb) RARE !ID CLVL<86]: %YELLOW%%NAME%
 ItemDisplay[(6hb OR 6l7 OR 6lw OR 8hb OR 8l8 OR 8lw OR hbw OR lbb OR lwb) RARE !ID CLVL>85]:
@@ -230,8 +211,8 @@ ItemDisplay[(ARMOR OR WEAPON) !ETH NORM RARE ILVL>0 ILVL<44 !ID]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) ETH NORM RARE ILVL>0 ILVL<44 !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 //UNID'd rares
 ItemDisplay[RARE !ID CLVL>79]:
-ItemDisplay[RARE !ID CLVL<80]: %YELLOW%%NAME%
-ItemDisplay[RARE ETH !ID CLVL<80]: [%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[RARE !ETH !ID CLVL<80]: %YELLOW%%NAME%
+ItemDisplay[RARE ETH !ID CLVL<80]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) !ETH NORM RARE !ID CLVL<80]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) ETH NORM RARE !ID CLVL<80]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ///ID RARES
