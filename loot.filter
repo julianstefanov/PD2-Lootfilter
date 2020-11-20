@@ -645,17 +645,17 @@ ItemDisplay[WP12 TABSK16>2 AND FCR=20]: %NAME% %GREEN%Mojo Pin
 ItemDisplay[(usk OR uh9 OR ci3) NMAG !ETH !SOCK=1 !SOCK=2 ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(usk OR uh9 OR ci3) NMAG !ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(usk OR uh9 OR ci3) NMAG !ETH SOCK=3]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(usk OR uh9 OR ci3) NMAG !ETH SOCK=0]: %WHITE%%NAME%[%SOCKETS%]
+ItemDisplay[(ci3) NMAG !ETH SOCK=0]: %GRAY%%NAME% %GRAY%[%TAN%imbue%GRAY%]
 //Tiara
-ItemDisplay[ci2 NMAG !ETH !SOCK=1]: %NAME% %WHITE%%TAN%[%SOCKETS%]
-ItemDisplay[ci2 NMAG !ETH SOCK=0]: %NAME% [L%ILVL%]
+ItemDisplay[ci2 NMAG !ETH !SOCK=1]: %NAME% %GRAY%%TAN%[%SOCKETS%]
+ItemDisplay[ci2 NMAG !ETH SOCK=0]: %GRAY%%NAME% %GRAY%[%TAN%imbue%GRAY%]
 //Masks
-ItemDisplay[(msk OR xsk) !INF NMAG SOCK=3 !ETH]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(msk OR xsk) !INF NMAG SOCK=3 !ETH]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ///EQ2 BODY ARMORS
 //92+ base hide
 ItemDisplay[EQ2 CLVL>91 ELT NMAG ETH SOCK>2]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 CLVL>91 ELT NMAG ETH SOCK=0 ED>9]: %GRAY%[%WHITE%eth%GRAY%]%GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[EQ2 CLVL>91 ELT NMAG !INF !ETH SOCK>2 (uui OR uea OR ula OR utu OR urs OR utp)]: %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[EQ2 CLVL>91 ELT NMAG !INF !ETH SOCK>2 (uui OR uea OR ula OR utu OR urs OR utp)]: %GRAY%%NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[EQ2 CLVL>91 ELT NMAG !INF !ETH SOCK=0 ED>9 (uui OR uea OR ula OR utu OR urs OR utp)]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 CLVL>91 NMAG]:
 //All elite (!Shadow/Sacred/Hellforged)
@@ -664,7 +664,7 @@ ItemDisplay[EQ2 !uar !uul !uld ELT NMAG ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%e
 ItemDisplay[EQ2 !uth !ult !uar !uld ELT !INF NMAG !ETH !SOCK=1 ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[EQ2 !uth !ult !uar !uul !uld ELT NMAG !ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 !uar !uul !uld ELT NMAG !INF ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[EQ2 !uth !ult !uar !uul !uld ELT !INF NMAG !ETH !SOCK=1]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[EQ2 !uth !ult !uar !uul !uld ELT !INF NMAG !ETH !SOCK=1]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Dusk Shroud/Great Hauberk/Archon Plate/Sacred Armor
 ItemDisplay[(utp OR uui OR urs) NMAG ETH !SOCK=1 ED=14]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(utp OR uui OR urs) NMAG !ETH !SOCK=1 ED=14]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
@@ -697,7 +697,7 @@ ItemDisplay[uul uth NMAG ETH]:
 ItemDisplay[uul NMAG !ETH]:
 //Archon Plate 30%from highest
 ItemDisplay[utp NMAG ETH !SOCK=1 DEF>620 CLVL<90]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[utp NMAG !ETH !INF !SOCK=1 DEF>444 CLVL<90]: %NAME%TAN%[%SOCKETS%]
+ItemDisplay[utp NMAG !ETH !INF !SOCK=1 DEF>444 CLVL<90]: %GRAY%%NAME%TAN%[%SOCKETS%]
 //Light Plate/Mage Plate
 ItemDisplay[(xtp OR xea OR xui) NMAG !RARE !INF !ETH !SOCK=1]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(xtp OR xea) xui NMAG !RARE ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]
@@ -1069,8 +1069,8 @@ ItemDisplay[(amd OR ame) ELT NMAG ETH ED=15 TABSK2>2 (SOCK=0 OR SOCK>4)]: %GRAY%
 ItemDisplay[(amd OR ame) ELT NMAG ETH ED>0 ED<15 TABSK2>2 (SOCK=0 OR SOCK>4)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(amd OR ame) ELT NMAG ETH TABSK2>2 (SOCK=0 OR SOCK>4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ////VENDOR ITEMS
-ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>0 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)%MAP%
-ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>0 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)%MAP%
+ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>0 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %TAN%($%PRICE%)
+ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>0 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %TAN%($%PRICE%)
 ItemDisplay[(7tk OR 7ta OR 7bk) NMAG !ETH !ED=15]: Throw %TAN%($%PRICE%)
 //6 Socket Weapon Bases
 ItemDisplay[WEAPON (7mp OR 7wa OR 7gi OR 7gm OR hal OR 9cr OR 7gd) NMAG SOCK=6]: %GRAY%%NAME% %TAN%[%SOCKETS%]
