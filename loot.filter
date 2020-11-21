@@ -158,7 +158,7 @@ ItemDisplay[GEM<4 CLVL>10]:
 //ItemDisplay[INF !RW !WP12 !CL4 !CL6]:
 ////RARES
 //The worthy ones
-ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID]: %YELLOW%%NAME%%MAP%
+ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%%MAP%
 //Circlets,Amulets,Rings,Jewels
 ItemDisplay[EQ7 RARE !ETH !ID]: %YELLOW%ooo %NAME% ooo%MAP%
