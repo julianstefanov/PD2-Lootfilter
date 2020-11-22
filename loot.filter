@@ -598,7 +598,7 @@ ItemDisplay[uld SET !ID]: %RED%o %GREEN%%NAME% Mavina's%MAP%
 ItemDisplay[uar SET !ID]: %PURPLE%ooo %GREEN%%NAME% Immortal King %PURPLE%ooo%MAP%
 ////RINGS/AMULETS/JEWELS
 ItemDisplay[(rin OR amu) UNI !ID]: %RED%oooo%PURPLE% %NAME% %RED%oooo%MAP%
-ItemDisplay[(rin OR amu) SET !ID]: %RED%oo%GREEN% %NAME% %RED%oo%MAP%
+ItemDisplay[(rin OR amu) SET !ID]: %RED%o%GREEN% %NAME% %RED%o%DOT-50%
 ItemDisplay[jew UNI !ID]: %RED%>>%WHITE%>>%PURPLE%%NAME%%WHITE%<<%RED%<<%MAP%
 ///UNIQUE&SET CATCHALL
 ItemDisplay[UNI ETH SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
