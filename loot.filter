@@ -601,22 +601,22 @@ ItemDisplay[(rin OR amu) UNI !ID]: %RED%oooo%PURPLE% %NAME% %RED%oooo%MAP%
 ItemDisplay[(rin OR amu) SET !ID]: %RED%o%GREEN% %NAME% %RED%o%DOT-50%
 ItemDisplay[jew UNI !ID]: %RED%>>%WHITE%>>%PURPLE%%NAME%%WHITE%<<%RED%<<%MAP%
 ///UNIQUE&SET CATCHALL
-ItemDisplay[UNI ETH SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[SET ETH SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[UNI ETH SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[SET ETH SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %GREEN%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[UNI ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME%
 ItemDisplay[SET ETH]: %GRAY%[%WHITE%eth%GRAY%] %GREEN%%NAME%
 ItemDisplay[UNI SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[SET SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[UNI]: %NAME%
 ItemDisplay[SET]: %NAME%
-ItemDisplay[UNI ETH !ID SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %TAN%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[UNI ETH !ID SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[SET ETH !ID SOCK>0]: %GRAY%[%WHITE%eth%GRAY%] %GREEN%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[UNI ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %TAN%%NAME%
+ItemDisplay[UNI ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME%
 ItemDisplay[SET ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %GREEN%%NAME%
 ItemDisplay[UNI !ID SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[SET !ID SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[UNI !ETH !ID]: %NAME%
-ItemDisplay[UNI ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %NAME%
+ItemDisplay[UNI ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME%
 ItemDisplay[SET !ID]: %NAME%
 ////RUNEWORDS
 ItemDisplay[RW]: %NAME%
