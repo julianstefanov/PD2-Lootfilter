@@ -576,7 +576,7 @@ ItemDisplay[xh9 SET !ID]: %GREEN%%NAME% Natalya's%MAP%
 ItemDisplay[7qr SET !ID]: %PURPLE%ooo %GREEN%%NAME% Natalya's %PURPLE%ooo%MAP%
 ItemDisplay[ucl SET !ID]: %GREEN%%NAME% Natalya's %RED%o%MAP%
 ItemDisplay[xmb SET !ID]: %RED%o %GREEN%%NAME% Natalya's %RED%o%MAP%
-ItemDisplay[xhm SET !ID]: %RED%oo %GREEN%%NAME% Orphan's (%RED%oo%MAP%
+ItemDisplay[xhm SET !ID]: %RED%oo %GREEN%%NAME% Orphan's %RED%oo%MAP%
 ItemDisplay[oba SET !ID]: %RED%o %GREEN%%NAME% Tal Rasha's %RED%o%MAP%
 ItemDisplay[xsk SET !ID]: %RED%o %GREEN%%NAME% Tal Rasha's %RED%o%MAP%
 ItemDisplay[uth SET !ID]: %PURPLE%ooo %GREEN%%NAME% Tal Rasha's %PURPLE%ooo%MAP%
