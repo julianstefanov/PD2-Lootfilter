@@ -392,10 +392,10 @@ ItemDisplay[uap UNI !ID !ETH]: %RED%ooo %PURPLE%Shako %RED%ooo%MAP%
 ItemDisplay[uap UNI !ID ETH]: %RED%ooo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Shako %RED%ooo%MAP%
 ItemDisplay[ulm UNI !ID !ETH]: %RED%ooo %PURPLE%Steel Shade %RED%ooo%MAP%
 ItemDisplay[ulm UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Steel Shade o%MAP%
-ItemDisplay[xrn UNI !ID !ETH]: %RED%o Crown of Thieves o%MAP%
-ItemDisplay[xrn UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Crown of Thieves%MAP%
-ItemDisplay[xkp UNI !ID !ETH]: %GOLD%o Rockstopper o%MAP%
-ItemDisplay[xkp UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %RED%Rockstopper o%MAP%
+ItemDisplay[xrn UNI !ID !ETH CLVL<75]: %RED%o Crown of Thieves o%MAP%
+ItemDisplay[xrn UNI !ID ETH CLVL<75]: %GRAY%[%WHITE%eth%GRAY%] %RED%Crown of Thieves%MAP%
+ItemDisplay[xkp UNI !ID !ETH CLVL<75]: %GOLD%o Rockstopper o%MAP%
+ItemDisplay[xkp UNI !ID ETH CLVL<75]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %RED%Rockstopper o%MAP%
 ItemDisplay[uhm UNI !ID !ETH]: %RED%ooo %PURPLE%Veil of Steel or Nightwing's Veil %RED%ooo%MAP%
 ItemDisplay[uhm UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Veil of Steel or %GRAY%[%WHITE%eth%GRAY%] %GOLD%Nightwing's Veil %RED%ooo%MAP%
 ItemDisplay[usk UNI !ID !ETH]: %RED%ooo %PURPLE%Andariel's Visage %RED%ooo%MAP%
@@ -408,8 +408,8 @@ ItemDisplay[ci3 UNI !ID !ETH]: %RED%ooo %PURPLE% Griffon's Eye %RED%ooo%MAP%
 ItemDisplay[ci3 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%o Griffon's Eye o%MAP%
 ItemDisplay[ci2 UNI !ID !ETH]: %RED%oo %PURPLE%Kira's Guardian %RED%oo%MAP%
 ItemDisplay[ci2 UNI !ID ETH]: %RED%oo%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Kira's Guardian %RED%oo%MAP%
-ItemDisplay[xui UNI !ID !ETH]: %RED%The Spirit Shroud%MAP%
-ItemDisplay[xui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%The Spirit Shroud%MAP%
+ItemDisplay[xui UNI !ID !ETH CLVL<75]: %RED%The Spirit Shroud%MAP%
+ItemDisplay[xui UNI !ID ETH CLVL<75]: %GRAY%[%WHITE%eth%GRAY%] %RED%The Spirit Shroud%MAP%
 ItemDisplay[xea UNI !ID !ETH]: %RED%ooo %PURPLE%Skin of the Vipermagi %RED%ooo%MAP%
 ItemDisplay[xea UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Skin of the Vipermagi%MAP%
 ItemDisplay[xrs UNI !ID !ETH]: %RED%o Duriel's Shell o%MAP%
@@ -424,8 +424,8 @@ ItemDisplay[xlt UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Guardian Ange
 ItemDisplay[xth UNI !ID !ETH]: %RED%o Atma's Wail o%MAP%
 ItemDisplay[uui UNI !ID !ETH]: %RED%ooo %PURPLE%Ormus' Robes %RED%ooo%MAP%
 ItemDisplay[uui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ormus' Robes%MAP%
-ItemDisplay[xld UNI !ID !ETH]: %RED%Toothrow%MAP%
-ItemDisplay[xld UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%]%RED%Toothrow%MAP%
+ItemDisplay[xld UNI !ID !ETH CLVL<75]: %RED%Toothrow%MAP%
+ItemDisplay[xld UNI !ID ETH CLVL<75]: %GRAY%[%WHITE%eth%GRAY%]%RED%Toothrow%MAP%
 ItemDisplay[utu UNI !ID !ETH]: %RED%o The Gladiator's Bane o%MAP%
 ItemDisplay[utu UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%The Gladiator's Bane o%MAP%
 ItemDisplay[upl UNI !ID !ETH]: %RED%ooo %PURPLE%Arkaine's Valor %RED%ooo%MAP%
@@ -445,15 +445,15 @@ ItemDisplay[uow UNI !ID !ETH]: %RED%oo Medusa's Gaze %RED%oo%MAP%
 ItemDisplay[mgl UNI !ID !ETH]: %RED%o Chance Guards o%MAP%
 ItemDisplay[tgl UNI !ID !ETH]: %RED%oo Magefist oo%MAP%
 ItemDisplay[hgl UNI !ID !ETH]: %RED%oo Frostburn oo%MAP%
-ItemDisplay[xvg UNI !ID !ETH]: %GOLD%Gravepalm%MAP%
+ItemDisplay[xvg UNI !ID !ETH CLVL<75]: %GOLD%Gravepalm%MAP%
 ItemDisplay[uvg UNI !ID !ETH]: %RED%ooo %PURPLE%Dracul's Grasp %RED%ooo%MAP%
 ItemDisplay[uvg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Dracul's Grasp%MAP%
 ItemDisplay[umg UNI !ID !ETH]: %GOLD%o Soul Drainer%MAP%
 ItemDisplay[umg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Soul Drainer%MAP%
 ItemDisplay[uhg UNI !ID !ETH]: %RED%oo %GOLD% Steelrend %RED%oo%MAP%
 ItemDisplay[uhg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Steelrend %RED%o%MAP%
-ItemDisplay[tbt UNI !ID !ETH]: %RED%o %GOLD%Goblin Toe %RED%o%MAP%
-ItemDisplay[tbt UNI !ID ETH]: %%RED%o [%WHITE%eth%GRAY%] %GOLD%Goblin Toe %RED%o%MAP%
+ItemDisplay[tbt UNI !ID !ETH CLVL<75]: %RED%o %GOLD%Goblin Toe %RED%o%MAP%
+ItemDisplay[tbt UNI !ID ETH CLVL<75]: %%RED%o [%WHITE%eth%GRAY%] %GOLD%Goblin Toe %RED%o%MAP%
 ItemDisplay[xvb UNI !ID !ETH]: %RED%oo Waterwalk oo%MAP%
 ItemDisplay[xvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Waterwalk%MAP%
 ItemDisplay[xmb UNI !ID !ETH]: %RED%oo %PURPLE%Silkweave %RED%oo%MAP%
