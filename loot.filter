@@ -98,7 +98,8 @@ ItemDisplay[t16 !ID]: %RED%oo %NAME% %RED%oo
 ItemDisplay[t17 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
 ItemDisplay[t18 !ID]: %RED%ooo %NAME% %RED%ooo%MAP%
 ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 MAG ID]: %RED%oo %BLUE%%NAME% %RED%oo
-ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 (NMAG OR !RARE) ID]: %RED%oo %WHITE%%NAME% %RED%oo
+ItemDisplay[t17 (NMAG OR !RARE) ID]: %RED%oo %WHITE%%NAME% %RED%oo%MAP%
+ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t18 (NMAG OR !RARE) ID]: %RED%oo %WHITE%%NAME% %RED%oo
 //All norm 1sock
 ItemDisplay[NMAG SOCK=1]:
 ////RUNES
@@ -740,7 +741,7 @@ ItemDisplay[7wa ETH NMAG ED>0 ED<13 SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WH
 ItemDisplay[7wa ETH NMAG !SOCK=1 !SOCK=2]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wa !ETH NMAG ED=15 !SOCK=1]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wa !ETH NMAG ED>0 ED<15 !SOCK=1]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7wa !ETH NMAG !INF (SOCK=0 OR SOCK=5 OR SOCK=6)]:  %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7wa !ETH NMAG !INF (SOCK=0 OR SOCK=5 OR SOCK=6)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Glorious Axe
 ItemDisplay[7gi ETH NMAG ED=15 (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7gi ETH NMAG ED>0 ED<15 SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]
