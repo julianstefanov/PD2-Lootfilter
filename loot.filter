@@ -425,7 +425,7 @@ ItemDisplay[xlt UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Guardian Ange
 ItemDisplay[xth UNI !ID !ETH]: %RED%o Atma's Wail o%MAP%
 ItemDisplay[uui UNI !ID !ETH]: %RED%ooo %PURPLE%Ormus' Robes %RED%ooo%MAP%
 ItemDisplay[uui UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Ormus' Robes%MAP%
-ItemDisplay[xld UNI !ID !ETH CLVL<75]: %RED%Toothrow%MAP%
+ItemDisplay[xld UNI !ID !ETH CLVL<75]: %GOLD%Toothrow%MAP%
 ItemDisplay[xld UNI !ID ETH CLVL<75]: %GRAY%[%WHITE%eth%GRAY%]%RED%Toothrow%MAP%
 ItemDisplay[utu UNI !ID !ETH]: %RED%o The Gladiator's Bane o%MAP%
 ItemDisplay[utu UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%The Gladiator's Bane o%MAP%
@@ -488,6 +488,8 @@ ItemDisplay[7wa UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Death Cleaver%MAP
 ItemDisplay[7bt UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Hellslayer%MAP%
 ItemDisplay[7gi UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Executioner's Justice%MAP%
 ItemDisplay[7sp UNI !ID !ETH]: %RED%o Demon Limb o%MAP%
+ItemDisplay[9gm UNI !ID !ETH]: %RED%o The Gavel of Pain o%MAP%
+ItemDisplay[9gm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%]%RED%oo %PURPLE%The Gavel of Pain %RED%oo%MAP%
 ItemDisplay[7fl UNI !ID !ETH]: %RED%oo Horizon's Tornado or Stormlash oo%MAP%
 ItemDisplay[7fl UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %RED%Horizon's Tornado or %GRAY%[%WHITE%eth%GRAY%] %RED%Stormlash%MAP%
 ItemDisplay[7wh UNI !ID !ETH]: %RED%oo Stone Crusher or Schaefer's Hammer oo%MAP%
