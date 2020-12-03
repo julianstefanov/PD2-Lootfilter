@@ -572,7 +572,7 @@ ItemDisplay[xtb SET !ID]: %RED%o %GREEN%%NAME% Aldur's %RED%o%MAP%
 ItemDisplay[dr8 SET !ID]: %RED%o %GREEN%%NAME% Aldur's %RED%o%MAP%
 ItemDisplay[uul SET !ID]: %RED%o %GREEN%%NAME% Aldur's %RED%o%MAP%
 ItemDisplay[9mt SET !ID]: %GREEN%%NAME% Aldur's
-ItemDisplay[umc SET !ID]: %GREEN%%NAME% The Disciple%MAP%
+ItemDisplay[umc SET !ID CLVL<75]: %GREEN%%NAME% The Disciple%MAP%
 ItemDisplay[ulg SET !ID]: %RED%oo %GREEN%%NAME% The Disciple %RED%oo%MAP%
 ItemDisplay[uar SET !ID]: %PURPLE%ooo %GREEN%%NAME% Immortal King %PURPLE%ooo%MAP%
 ItemDisplay[xh9 SET !ID]: %GREEN%%NAME% Natalya's%MAP%
