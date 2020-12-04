@@ -233,7 +233,7 @@ ItemDisplay[cm3 (RES>7 AND FHR>0)]: %PURPLE%ALL %WHITE%Res %ORANGE%FHR %BLUE%Gra
 ItemDisplay[cm3 RES>9]: %PURPLE%ALL %WHITE%Res %BLUE%Grand Charm 
 ItemDisplay[cm2 (MAXDMG>3 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Large Charm 
 ItemDisplay[cm2 (MAXDMG>3 AND DEX>0)]: %TAN%Max Dmg %GREEN%dex %BLUE%Large Charm 
-ItemDisplay[cm2 (MAXDMG>3 AND STR>0)]: %TAN%Max Dmg %DGREEN%str %BLUE%Large Charm 
+ItemDisplay[cm2 (MAXDMG>3 AND STR>0)]: %TAN%Max Dmg %DARK_GREEN%str %BLUE%Large Charm 
 ItemDisplay[cm2 (MAXDMG>3 AND FRW>0)]: %TAN%Max Dmg %ORANGE%frw %BLUE%Large Charm 
 ItemDisplay[cm2 (MAXDMG>3 AND FHR>0)]: %TAN%Max Dmg %ORANGE%FHR %BLUE%Large Charm 
 ItemDisplay[cm2 MAXDMG>4]: %TAN%Max Dmg %BLUE%Large Charm 
@@ -244,7 +244,7 @@ ItemDisplay[cm2 !UNI RES>6]: %PURPLE%ALL %WHITE%Res %BLUE%Large Charm
 ItemDisplay[cm2 LIFE>33]: %RED%Life %BLUE%Large Charm 
 ItemDisplay[cm1 ((MAXDMG>1 AND LIFE>0) OR (MAXDMG>0 AND LIFE>9))]: %TAN%Max Dmg %RED%Life %BLUE%Small Charm 
 ItemDisplay[cm1 (MAXDMG>1 AND DEX>0)]: %TAN%Max Dmg %GREEN%dex %BLUE%Small Charm 
-ItemDisplay[cm1 (MAXDMG>1 AND STR>0)]: %TAN%Max Dmg %DGREEN%str %BLUE%Small Charm 
+ItemDisplay[cm1 (MAXDMG>1 AND STR>0)]: %TAN%Max Dmg %DARK_GREEN%str %BLUE%Small Charm 
 ItemDisplay[cm1 (MAXDMG>1 AND FRW>0)]: %TAN%Max Dmg %ORANGE%frw %BLUE%Small Charm 
 ItemDisplay[cm1 (MAXDMG>1 AND FHR>0)]: %TAN%Max Dmg %ORANGE%FHR %BLUE%Small Charm 
 ItemDisplay[cm1 MAXDMG>1]: %TAN%Max Dmg %BLUE%Small Charm 
