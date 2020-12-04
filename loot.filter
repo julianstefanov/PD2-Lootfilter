@@ -454,7 +454,7 @@ ItemDisplay[umg UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Soul Drainer%MAP%
 ItemDisplay[uhg UNI !ID !ETH]: %RED%oo %GOLD% Steelrend %RED%oo%MAP%
 ItemDisplay[uhg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Steelrend %RED%o%MAP%
 ItemDisplay[tbt UNI !ID !ETH CLVL<75]: %RED%o %GOLD%Goblin Toe %RED%o%MAP%
-ItemDisplay[tbt UNI !ID ETH CLVL<75]: %%RED%o [%WHITE%eth%GRAY%] %GOLD%Goblin Toe %RED%o%MAP%
+ItemDisplay[tbt UNI !ID ETH CLVL<75]: %RED%o [%WHITE%eth%GRAY%] %GOLD%Goblin Toe %RED%o%MAP%
 ItemDisplay[xvb UNI !ID !ETH]: %RED%oo Waterwalk oo%MAP%
 ItemDisplay[xvb UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Waterwalk%MAP%
 ItemDisplay[xmb UNI !ID !ETH]: %RED%oo %PURPLE%Silkweave %RED%oo%MAP%
