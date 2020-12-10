@@ -660,7 +660,6 @@ ItemDisplay[EQ2 CLVL>91 ELT NMAG ETH SOCK>2]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %T
 ItemDisplay[EQ2 CLVL>91 ELT NMAG ETH SOCK=0 ED>9]: %GRAY%[%WHITE%eth%GRAY%]%GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 CLVL>91 ELT NMAG !INF !ETH SOCK>2 (uui OR uea OR ula OR utu OR urs OR utp)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 CLVL>91 ELT NMAG !INF !ETH SOCK=0 ED>9 (uui OR uea OR ula OR utu OR urs OR utp)]: %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[EQ2 CLVL>91 NMAG]:
 //All elite (!Shadow/Sacred/Hellforged)
 ItemDisplay[EQ2 ELT NMAG ETH !SOCK=1 ED=15]: %GRAY%[%WHITE%eth%GRAY%]%GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[EQ2 ELT NMAG ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%]%GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
