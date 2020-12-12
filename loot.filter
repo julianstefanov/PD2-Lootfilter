@@ -5,7 +5,7 @@ ItemDisplay[GOLD<1000 CLVL<65)]:
 ItemDisplay[GOLD<5000 CLVL>64]:
 //HP & MPs
 ItemDisplay[rvl]: %PURPLE%R %WHITE%Full
-ItemDisplay[rvs]: %PURPLE%r %WHITE%50%
+ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
 ItemDisplay[hp5]: %RED%!%WHITE%HP%RED%!%WHITE%
 ItemDisplay[mp4 CLVL<78]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
 ItemDisplay[mp4 CLVL>79]:
