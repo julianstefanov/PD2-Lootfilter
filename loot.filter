@@ -4,8 +4,8 @@
 ItemDisplay[GOLD<1000 CLVL<65)]:
 ItemDisplay[GOLD<5000 CLVL>64]:
 //HP & MPs
-ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
-ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
+ItemDisplay[rvl]: %PURPLE%R %WHITE%Full
+ItemDisplay[rvs]: %PURPLE%r %WHITE%50%
 ItemDisplay[hp5]: %RED%!%WHITE%HP%RED%!%WHITE%
 ItemDisplay[mp4 CLVL<78]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
 ItemDisplay[mp4 CLVL>79]:
@@ -276,6 +276,7 @@ ItemDisplay[cm1 !UNI PRES>9]: %GREEN%Psn %WHITE%Res %BLUE%Small Charm
 ItemDisplay[cm1 MFIND>5]: %GREEN%MF %BLUE%Small Charm 
 ItemDisplay[cm1 LIFE>16]: %RED%Life %BLUE%Small Charm 
 //Skillers
+ItemDisplay[cm3 (TABSK0>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Bowa Skiller 
 ItemDisplay[cm3 (TABSK2>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK8>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Fire Skiller 
 ItemDisplay[cm3 (TABSK9>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Light Skiller 
@@ -290,8 +291,8 @@ ItemDisplay[cm3 (TABSK34>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Warcries Skiller
 ItemDisplay[cm3 (TABSK40>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Dru Summon Skiller 
 ItemDisplay[cm3 (TABSK41>0 AND FHR>0)]: %ORANGE%FHR %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Dru Ele Skiller 
-ItemDisplay[cm3 (TABSK48>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Trap Skiller
-ItemDisplay[cm3 (TABSK49>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Shadow Skiller
+ItemDisplay[cm3 (TABSK48>0 AND FHR>0)]: %ORANGE%FHR %GOLD%Trap Skiller 
+ItemDisplay[cm3 (TABSK0>0 AND FRW>0)]: %ORANGE%frw %GOLD%Bowa Skiller 
 ItemDisplay[cm3 (TABSK2>0 AND FRW>0)]: %ORANGE%frw %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK16>0 AND FRW>0)]: %ORANGE%frw %GOLD%Curses Skiller 
 ItemDisplay[cm3 (TABSK17>0 AND FRW>0)]: %ORANGE%frw %GOLD%P&B Skiller 
@@ -303,8 +304,8 @@ ItemDisplay[cm3 (TABSK34>0 AND FRW>0)]: %ORANGE%frw %GOLD%Warcries Skiller
 ItemDisplay[cm3 (TABSK40>0 AND FRW>0)]: %ORANGE%frw %GOLD%Dru Summon Skiller 
 ItemDisplay[cm3 (TABSK41>0 AND FRW>0)]: %ORANGE%frw %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND FRW>0)]: %ORANGE%frw %GOLD%Dru Ele Skiller 
-ItemDisplay[cm3 (TABSK48>0 AND FRW>0)]: %ORANGE%frw %GOLD%Trap Skiller
-ItemDisplay[cm3 (TABSK49>0 AND FRW>0)]: %ORANGE%frw %GOLD%Shadow Skiller 
+ItemDisplay[cm3 (TABSK48>0 AND FRW>0)]: %ORANGE%frw %GOLD%Trap Skiller 
+ItemDisplay[cm3 (TABSK0>0 AND LIFE>0)]: %RED%Life %GOLD%Bowa Skiller 
 ItemDisplay[cm3 (TABSK2>0 AND LIFE>0)]: %RED%Life %GOLD%Java Skiller 
 ItemDisplay[cm3 (TABSK8>0 AND LIFE>0)]: %RED%Life %GOLD%Fire Skiller 
 ItemDisplay[cm3 (TABSK9>0 AND LIFE>0)]: %RED%Life %GOLD%Light Skiller 
@@ -320,7 +321,7 @@ ItemDisplay[cm3 (TABSK40>0 AND LIFE>0)]: %RED%Life %GOLD%Dru Summon Skiller
 ItemDisplay[cm3 (TABSK41>0 AND LIFE>0)]: %RED%Life %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 (TABSK42>0 AND LIFE>0)]: %RED%Life %GOLD%Dru Ele Skiller 
 ItemDisplay[cm3 (TABSK48>0 AND LIFE>0)]: %RED%Life %GOLD%Trap Skiller
-ItemDisplay[cm3 (TABSK49>0 AND LIFE>0)]: %RED%Life %GOLD%Shadow Skiller
+ItemDisplay[cm3 TABSK0>0]: %GOLD%Bowa Skiller 
 ItemDisplay[cm3 TABSK2>0]: %GOLD%Java Skiller 
 ItemDisplay[cm3 TABSK8>0]: %GOLD%Fire Skiller 
 ItemDisplay[cm3 TABSK9>0]: %GOLD%Light Skiller 
@@ -335,8 +336,7 @@ ItemDisplay[cm3 TABSK34>0]: %GOLD%Warcries Skiller
 ItemDisplay[cm3 TABSK40>0]: %GOLD%Dru Summon Skiller 
 ItemDisplay[cm3 TABSK41>0]: %GOLD%ShapeShift Skiller 
 ItemDisplay[cm3 TABSK42>0]: %GOLD%Dru Ele Skiller 
-ItemDisplay[cm3 TABSK48>0]: %GOLD%Trap Skiller       
-ItemDisplay[cm3 TABSK49>0]: %GOLD%Shadow Skiller
+ItemDisplay[cm3 TABSK48>0]: %GOLD%Trap Skiller
 //Unique Charms
 ItemDisplay[cm1 UNI !ID]: %PURPLE%ooooo %GOLD%Annihilus %PURPLE%ooooo%MAP%
 ItemDisplay[cm2 UNI !ID]: %PURPLE%ooooo %GOLD%Hellfire Torch %PURPLE%ooooo%MAP%
@@ -643,6 +643,7 @@ ItemDisplay[(WP3 OR WP5 OR WP6) TABSK34=2]: %NAME% %YELLOW%+2 Warcries Skills
 ItemDisplay[WP12 TABSK18>2 AND SK94>2]: %NAME% %GREEN%Golem Wand
 ItemDisplay[WP12 TABSK16>2 AND FCR=20]: %NAME% %GREEN%Mojo Pin
 ////ARMOR BASES
+ItemDisplay[(ARMOR OR WEAPON) NMAG !RARE !UNI !SET !ETH INF !RW CLVL>59]:
 ///EQ1/EQ7 HELMS
 //Demonhead, Bone Visage, Diadem
 ItemDisplay[(usk OR uh9 OR ci3) NMAG !ETH !SOCK=1 !SOCK=2 ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
